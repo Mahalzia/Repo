@@ -1,82 +1,118 @@
-
-
-#NavLinks {
-	margin:0, 0, 100px, 0; color:gray; 
-	background-color:lightgrey;
-	padding:75px;
-	word-spacing: 20px;
-	clear:both;
-}
-#about {
-	font-size:18px;
-	text-align:center;
+html {
+	display:flex;
+	flex:auto;
 
 }
 header {
-	background-color: #ff9800;
+	margin:auto; color:gray; 
+	background-color:lightgrey;
+	clear:both;
+	height:20%;
 }
-#NavImage {
-	background-color:#f4dfbe; 
-	height:400px;
-	width:900px;
-	position:relative; left:300px;   
+
+#s_img1 {
+	height:80px;
+	padding:30px;
+}
+
+
+ .font{
+ 	justify-content:center; 
+ 	font-size:18px;
+	color:gray;
+	text-decoration: none;
+	padding:20px;
+	word-spacing: 100%;
+
+ }
+ 	.flexbox {
+	display:flex;
+	justify-content: space-between;
+	justify-content:space-around;
+	align-items: center;
+	 
+
+}
+
+
+
+.container {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:#f4dfbe;  
 	border-style: solid; 
 	border-color:#72729f; 
-	border-width: 2px 6px 3px 1px; 
+	border-width: auto; 
 	border-radius: 20px; 
+	word-spacing: 2px
+	font-size:15px;
+	color:#6363a0;
+	word-break:break-all;
 	clear:both;
 }
 
 
-#cafe2 {
-	float:left;
-	height:50px;
-	position:relative; left:-270px; top: -180px;
-}
 
-.dnav {
-	float:right;
-	width:400px;
-	position: relative; right: 75px; top:50px;
-	
 
 }
-#List {
-	font-size:26px;
+.Description {
+	font-size:80px;
 	color:#72729f;
-	position:relative; left:30px;
-	letter-spacing: 3px;
+	letter-spacing:20%;
 }
-#cafe {
-	float:left;
-	position:relative; top:50px; right:20px;
-}
-#name {
-	position:relative; left:490px;
-	padding:20px;
-	height:75px;
-}
-#me{
+
+
+
+
+#s_img2{
 	height:150px;
-	position:relative; left: 300px; top:175px;
+}
 
-}
-.flex-container{
-	display:flex;
-	justify-content: center;
-	height:400px;
-	width:900px;
-	position:relative; left:300px;
-	word-spacing: 2px
-	font-size:15px;
-	color:#6363a0;
-}
+
 #me1{
-	height: 120px;
+	height:180px;
 
 }
-#earth{
-	height:350px;
-	position: relative;top:200px;
+img#earth{
+	height:500px;
+}
+
+img.space{
+	justify-content: center;
+	height:100px;
+}
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  
+
+
+
+
+
+footer{
+	margin:auto;
+	background-color:lightgray;
+	height:80px;
+	max-height:20%;
 }
 
