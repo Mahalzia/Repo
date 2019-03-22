@@ -4,11 +4,18 @@ html {
 
 }
 header {
+<<<<<<< HEAD
 	margin:auto;  
 	background-image: url("Images/fruit.jpg");
 	clear:both;
 	height:600px;
 	width: 100%;
+=======
+	margin:auto; color:gray; 
+	background-color:lightgrey;
+	clear:both;
+	height:20%;
+>>>>>>> a534cc0d58ab7f4fe54443966cd274ea5736c9d7
 }
 
 #s_img1 {
@@ -20,17 +27,33 @@ header {
  .font{
  	justify-content:center; 
  	font-size:18px;
+<<<<<<< HEAD
 	color:#6B3821;
+=======
+	color:gray;
+>>>>>>> a534cc0d58ab7f4fe54443966cd274ea5736c9d7
 	text-decoration: none;
 	padding:20px;
 	word-spacing: 100%;
 
  }
+<<<<<<< HEAD
+=======
+ 	.flexbox {
+	display:flex;
+	justify-content: space-between;
+	justify-content:space-around;
+	align-items: center;
+	 
+
+}
+>>>>>>> a534cc0d58ab7f4fe54443966cd274ea5736c9d7
 
 
 
 .container {
 	display:flex;
+<<<<<<< HEAD
 	justify-content: center;
 	background-color:#FFF049;
 	align-items: center;
@@ -53,6 +76,29 @@ header {
 .Description {
 	font-size:80px;
 	color:#6B3821;
+=======
+	justify-content:center;
+	align-items:center;
+	background-color:#f4dfbe;  
+	border-style: solid; 
+	border-color:#72729f; 
+	border-width: auto; 
+	border-radius: 20px; 
+	word-spacing: 2px
+	font-size:15px;
+	color:#6363a0;
+	word-break:break-all;
+	clear:both;
+}
+
+
+
+
+}
+.Description {
+	font-size:80px;
+	color:#72729f;
+>>>>>>> a534cc0d58ab7f4fe54443966cd274ea5736c9d7
 	letter-spacing:20%;
 }
 
@@ -66,12 +112,16 @@ header {
 
 #me1{
 	height:180px;
+<<<<<<< HEAD
 	position:relative;right:60px;
 
+=======
+>>>>>>> a534cc0d58ab7f4fe54443966cd274ea5736c9d7
 
 }
 img#earth{
 	height:500px;
+<<<<<<< HEAD
 	display:flex;
 	justify-content: flex-end;
 	position: relative;left:100px;
@@ -86,10 +136,15 @@ img#earth{
 	padding-bottom:30px;
 	padding-left: 10px;
 }
+=======
+}
+
+>>>>>>> a534cc0d58ab7f4fe54443966cd274ea5736c9d7
 img.space{
 	justify-content: center;
 	height:100px;
 }
+<<<<<<< HEAD
 #biglinks{
 	height:180px;
 }
@@ -109,6 +164,14 @@ img.space{
   display:flex;
   justify-content: flex-end;
   position: relative;bottom:240px; left:275px;
+=======
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+>>>>>>> a534cc0d58ab7f4fe54443966cd274ea5736c9d7
 }
 
 .dropdown-content {
@@ -127,6 +190,7 @@ img.space{
   
 
 
+<<<<<<< HEAD
 body{
 	background-image: url("Images/salmon.jpg");
 	float:bottom;
@@ -134,10 +198,14 @@ body{
 	width:100%;
 
 }
+=======
+
+>>>>>>> a534cc0d58ab7f4fe54443966cd274ea5736c9d7
 
 
 footer{
 	margin:auto;
+<<<<<<< HEAD
 	height:0px;
 	max-height:0%;
 }
@@ -169,3 +237,10 @@ footer{
   }
 
 }
+=======
+	background-color:lightgray;
+	height:80px;
+	max-height:20%;
+}
+
+>>>>>>> a534cc0d58ab7f4fe54443966cd274ea5736c9d7
